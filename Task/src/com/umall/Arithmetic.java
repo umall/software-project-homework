@@ -8,6 +8,7 @@ public class Arithmetic {
 	static char c;
 	static float sum;
 	public static void main(String[] args) {
+		System.out.println("请输入出题数量：");
 		Scanner in = new Scanner(System.in);
 		int count = in.nextInt();
 		int i = 0;
@@ -37,6 +38,7 @@ public class Arithmetic {
 //				j++;
 //			}
 		}
+		System.out.println();
 		System.out.println("是否输出答案（Y/y--其他）");
 		String sc = in.next();
 		char s = sc.charAt(0);
