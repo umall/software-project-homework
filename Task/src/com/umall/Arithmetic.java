@@ -1,8 +1,10 @@
 package com.umall;
 
 import java.util.*;
+import java.applet.*;
+import java.awt.*;
 
-public class Arithmetic {
+public class Arithmetic extends Applet{
 	static int a1,a2,a3;
 	static int b1,b2;
 	static char c;
